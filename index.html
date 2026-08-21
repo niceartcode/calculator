@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="mn">
+<head>
+<meta charset="UTF-8">
+<title>Calculator</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="device">
+    <div class="brand"><b>MODEL 12</b><span>SOLAR</span></div>
+
+    <div class="screen">
+      <div class="expr" id="expr">&nbsp;</div>
+      <div class="result" id="result">0</div>
+    </div>
+
+    <div class="pad" id="pad">
+      <button class="key func" data-action="clear">AC</button>
+      <button class="key func" data-action="back">⌫</button>
+      <button class="key func" data-action="percent">%</button>
+      <button class="key op" data-action="op" data-op="÷">÷</button>
+
+      <button class="key" data-action="digit" data-val="7">7</button>
+      <button class="key" data-action="digit" data-val="8">8</button>
+      <button class="key" data-action="digit" data-val="9">9</button>
+      <button class="key op" data-action="op" data-op="×">×</button>
+
+      <button class="key" data-action="digit" data-val="4">4</button>
+      <button class="key" data-action="digit" data-val="5">5</button>
+      <button class="key" data-action="digit" data-val="6">6</button>
+      <button class="key op" data-action="op" data-op="−">−</button>
+
+      <button class="key" data-action="digit" data-val="1">1</button>
+      <button class="key" data-action="digit" data-val="2">2</button>
+      <button class="key" data-action="digit" data-val="3">3</button>
+      <button class="key op" data-action="op" data-op="+">+</button>
+
+      <button class="key" data-action="digit" data-val="0">0</button>
+      <button class="key" data-action="dot">.</button>
+      <button class="key eq" data-action="equals">=</button>
+    </div>
+
+    <div class="footer-note">tap · type · enter</div>
+  </div>
+
+<script src="script.js"></script>
+</body>
+</html>
